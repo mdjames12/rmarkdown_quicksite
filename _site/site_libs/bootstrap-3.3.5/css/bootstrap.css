@@ -1085,8 +1085,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: rgb(253, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 input,
 button,
@@ -1097,12 +1097,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #012e05;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #544472;
   text-decoration: underline;
 }
 a:focus {
@@ -4771,7 +4771,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   margin-left: -1px;
   line-height: 1.42857143;
-  color: #337ab7;
+  color: #b73333;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4792,7 +4792,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #23527c;
+  color: #c91616;
   background-color: #eee;
   border-color: #ddd;
 }
@@ -4805,8 +4805,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 2;
   color: #fff;
   cursor: default;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #b73333;
+  border-color: #b73333;
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
@@ -4922,25 +4922,25 @@ a.label:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #337ab7;
+  background-color: #b73333;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #286090;
+  background-color: #902828;
 }
 .label-success {
-  background-color: #5cb85c;
+  background-color: #b85c5c;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #9d4444;
 }
 .label-info {
-  background-color: #5bc0de;
+  background-color: #de5b5b;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #d53131;
 }
 .label-warning {
   background-color: #f0ad4e;
@@ -4990,7 +4990,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #b73333;
   background-color: #fff;
 }
 .list-group-item > .badge {
